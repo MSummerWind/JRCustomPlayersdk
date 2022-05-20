@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JRTestClass.h"
 
 FOUNDATION_EXPORT double JRCustomAliyunPlayersdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char JRCustomAliyunPlayersdkVersionString[];

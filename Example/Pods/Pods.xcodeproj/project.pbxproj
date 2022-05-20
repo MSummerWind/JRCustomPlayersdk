@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0149FF7D3D6468AD9B4BB639B24C6C25 /* Pods-JRCustomAliyunPlayersdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D589493EA474825F2B9387DF7CBA12 /* Pods-JRCustomAliyunPlayersdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41D5BC0BD33D83DB1F2BD0391FB47006 /* JRCustomAliyunPlayersdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 637786D8F1ADDF6C82920798A71C818E /* JRCustomAliyunPlayersdk-dummy.m */; };
-		4383A0A3CF069E0D49847A38C382516B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 30879E94699C4020659C0E648C8CC350 /* ReplaceMe.m */; };
+		04F7D11152A1CB1717C639AA29CCE77C /* JRTestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEECB0712737B46446E2F43B32B238E /* JRTestClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44B177B5D49F7B2B62826B4A3C8263A6 /* Pods-JRCustomAliyunPlayersdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF91E70270019DCE5889EA968718D0 /* Pods-JRCustomAliyunPlayersdk_Tests-dummy.m */; };
 		623FA90D076EDF56F6A41C89557B5FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		742AD1DBA9330934081FFBAAC9813B5B /* JRTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383540ABD4AF2F58D5D7EADFE9B501C /* JRTestClass.m */; };
 		75EF2C2D04D24CA2EF82B5323C20C843 /* Pods-JRCustomAliyunPlayersdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A63566FA0EA1327B9B3DF25974AEAD /* Pods-JRCustomAliyunPlayersdk_Example-dummy.m */; };
+		7BF4BBB8D2D41C36E7D915076743C2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7ECF77066F81201BC6D3BE5894B0316F /* Pods-JRCustomAliyunPlayersdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 959184004C543BA0DCC08BAB472DB4FC /* Pods-JRCustomAliyunPlayersdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A915A9183930281DDDA13E35CAC1CE46 /* JRCustomAliyunPlayersdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B422C942A36A8A3680972EC1AFECA4A /* JRCustomAliyunPlayersdk-dummy.m */; };
 		B784454A84F063730ACEAD2E0A77C7F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D2C19E3EF3387D1EF234AAB53585E3DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F6CAF1BCDCF0C502EC86B17346FED4A2 /* JRCustomAliyunPlayersdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74171C74B9D3BD0B3DB2C6A8A5E15B59 /* JRCustomAliyunPlayersdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1426C596811CC5D00F5FAC3B41AFE16 /* JRCustomAliyunPlayersdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D67218B5A91D49CF225CCCAA81E75C /* JRCustomAliyunPlayersdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F55F5FCBFECC1F83DE67D4043FA5EBA5 /* PBXContainerItemProxy */ = {
+		115D18CA0EC041397AE8FFF2106BD513 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C6C121CD4A29E91E9013E582FDE42EBA;
 			remoteInfo = JRCustomAliyunPlayersdk;
 		};
-		F80AEA5C66CB3A0837BC93D1F2B7EE2F /* PBXContainerItemProxy */ = {
+		26FAD98347191B2F5ED27721BFED0D72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,50 +38,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0081F393654AA47383FF27F5892B06DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1383540ABD4AF2F58D5D7EADFE9B501C /* JRTestClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JRTestClass.m; path = JRCustomAliyunPlayersdk/Classes/JRTestClass.m; sourceTree = "<group>"; };
 		1A154565A80A49189BFE8FED6AD8F0F0 /* Pods-JRCustomAliyunPlayersdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JRCustomAliyunPlayersdk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		205B1D7F9E1468E46C9266E417AC6B97 /* Pods-JRCustomAliyunPlayersdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomAliyunPlayersdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B38B304CDB901E90FBB507E3FE186A3 /* Pods-JRCustomAliyunPlayersdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomAliyunPlayersdk_Example"; path = Pods_JRCustomAliyunPlayersdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B422C942A36A8A3680972EC1AFECA4A /* JRCustomAliyunPlayersdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRCustomAliyunPlayersdk-dummy.m"; sourceTree = "<group>"; };
 		2F319F3017CF6A8AE3E324646EB27841 /* Pods-JRCustomAliyunPlayersdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRCustomAliyunPlayersdk_Example.modulemap"; sourceTree = "<group>"; };
-		30879E94699C4020659C0E648C8CC350 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JRCustomAliyunPlayersdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		335CA79F244E69CB2E3E8F2A2BF9921D /* JRCustomAliyunPlayersdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRCustomAliyunPlayersdk.modulemap; sourceTree = "<group>"; };
 		39D589493EA474825F2B9387DF7CBA12 /* Pods-JRCustomAliyunPlayersdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JRCustomAliyunPlayersdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B7F8A044CC395AE6AC55F726E6875FF /* Pods-JRCustomAliyunPlayersdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomAliyunPlayersdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		637786D8F1ADDF6C82920798A71C818E /* JRCustomAliyunPlayersdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRCustomAliyunPlayersdk-dummy.m"; sourceTree = "<group>"; };
+		67D67218B5A91D49CF225CCCAA81E75C /* JRCustomAliyunPlayersdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomAliyunPlayersdk-umbrella.h"; sourceTree = "<group>"; };
 		67F07388D78AE7A462A4381284840C43 /* Pods-JRCustomAliyunPlayersdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomAliyunPlayersdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		6C3245E74CF79E4FB8095097367C8D34 /* Pods-JRCustomAliyunPlayersdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomAliyunPlayersdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74171C74B9D3BD0B3DB2C6A8A5E15B59 /* JRCustomAliyunPlayersdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomAliyunPlayersdk-umbrella.h"; sourceTree = "<group>"; };
 		791E69D23E2099EDD22B62DCA7E35B74 /* Pods-JRCustomAliyunPlayersdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomAliyunPlayersdk_Tests"; path = Pods_JRCustomAliyunPlayersdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1CE425B652AF6DAA3098845DDE1D7E /* Pods-JRCustomAliyunPlayersdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomAliyunPlayersdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8F8734C22E48DDCC74F62DA363BA0FCF /* JRCustomAliyunPlayersdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomAliyunPlayersdk.release.xcconfig; sourceTree = "<group>"; };
+		850E662B3C6623FBF8DC4C15B8212FC6 /* JRCustomAliyunPlayersdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JRCustomAliyunPlayersdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959184004C543BA0DCC08BAB472DB4FC /* Pods-JRCustomAliyunPlayersdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JRCustomAliyunPlayersdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9BA60D9E135229AF5BFD9CC661564576 /* JRCustomAliyunPlayersdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomAliyunPlayersdk.debug.xcconfig; sourceTree = "<group>"; };
+		9D1132412D1D6C58515EF3917D0C5563 /* JRCustomAliyunPlayersdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRCustomAliyunPlayersdk-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7FEFE5664E1B385D856A51BA74EC298 /* JRCustomAliyunPlayersdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomAliyunPlayersdk-prefix.pch"; sourceTree = "<group>"; };
 		A816EC8D62712B8D70FDBBCCBB2B98A2 /* Pods-JRCustomAliyunPlayersdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomAliyunPlayersdk_Example-Info.plist"; sourceTree = "<group>"; };
-		ADC6767D53A0D9A669C791D2772B2F59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AE6CA70BDCAB42DC3FAE0F275312FD25 /* JRCustomAliyunPlayersdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JRCustomAliyunPlayersdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7C0EDFD956C767F4399FD4F3191CF59 /* Pods-JRCustomAliyunPlayersdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JRCustomAliyunPlayersdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAEECB0712737B46446E2F43B32B238E /* JRTestClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JRTestClass.h; path = JRCustomAliyunPlayersdk/Classes/JRTestClass.h; sourceTree = "<group>"; };
 		BD7BA55978A6865932AFD275DAB15BCD /* Pods-JRCustomAliyunPlayersdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomAliyunPlayersdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFB9051EE6B659BBE668C40C16E9E4A /* JRCustomAliyunPlayersdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomAliyunPlayersdk-prefix.pch"; sourceTree = "<group>"; };
 		C851D4F6655D9EB53958708B6856E91F /* Pods-JRCustomAliyunPlayersdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomAliyunPlayersdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C997D70CBAD64B0CE0444F2B146DB91A /* JRCustomAliyunPlayersdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomAliyunPlayersdk.debug.xcconfig; sourceTree = "<group>"; };
 		CDCF91E70270019DCE5889EA968718D0 /* Pods-JRCustomAliyunPlayersdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRCustomAliyunPlayersdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		CEA52666DF0A18AA093C5E697D9A4285 /* Pods-JRCustomAliyunPlayersdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRCustomAliyunPlayersdk_Tests.modulemap"; sourceTree = "<group>"; };
 		D00FC0411984DC885703081ADBFE1053 /* Pods-JRCustomAliyunPlayersdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JRCustomAliyunPlayersdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D43EA54E2EF3174C94168B042AA740E1 /* JRCustomAliyunPlayersdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRCustomAliyunPlayersdk.modulemap; sourceTree = "<group>"; };
+		D83BDC756BC4502C1645504F79706C46 /* JRCustomAliyunPlayersdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomAliyunPlayersdk.release.xcconfig; sourceTree = "<group>"; };
+		D95AD00E9A13C53C24F8B207C70D927C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D9A687AB60BB6295C53489FF286D2A32 /* JRCustomAliyunPlayersdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRCustomAliyunPlayersdk; path = JRCustomAliyunPlayersdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A63566FA0EA1327B9B3DF25974AEAD /* Pods-JRCustomAliyunPlayersdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRCustomAliyunPlayersdk_Example-dummy.m"; sourceTree = "<group>"; };
-		E1544A687E66EE08A614EEE48B6AEDF2 /* JRCustomAliyunPlayersdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRCustomAliyunPlayersdk-Info.plist"; sourceTree = "<group>"; };
+		FE43EC97B63B36946761D4A6393CA34A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0737E741C6444FF136F8B6AE3F8982CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2C19E3EF3387D1EF234AAB53585E3DE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		43350282394CDF68E3A9C0924BB0042C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,26 +91,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3F2B4EA8A6DAD9C2B12334E64105E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF4BBB8D2D41C36E7D915076743C2F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		124D52DD5F35E11F978A449DAE508248 /* Development Pods */ = {
+		2CC04DF35E7AA86242AD0BC6D5100310 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16D14DF9DD603E5A4FE65FDDE0AFEC70 /* JRCustomAliyunPlayersdk */,
+				45D1CFD3F979F334FEC99B146371AF55 /* JRCustomAliyunPlayersdk */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		16D14DF9DD603E5A4FE65FDDE0AFEC70 /* JRCustomAliyunPlayersdk */ = {
-			isa = PBXGroup;
-			children = (
-				30879E94699C4020659C0E648C8CC350 /* ReplaceMe.m */,
-				7058AC4F6EC49E33CAD22B33FF406073 /* Pod */,
-				E69781834E6AF8DF235E83FA05C43F75 /* Support Files */,
-			);
-			name = JRCustomAliyunPlayersdk;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		3478887992A54F011648DCEB6B74FED3 /* Targets Support Files */ = {
@@ -143,6 +134,33 @@
 			);
 			name = "Pods-JRCustomAliyunPlayersdk_Example";
 			path = "Target Support Files/Pods-JRCustomAliyunPlayersdk_Example";
+			sourceTree = "<group>";
+		};
+		4492A1DC0C049B0D854C01CA76DA080A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				335CA79F244E69CB2E3E8F2A2BF9921D /* JRCustomAliyunPlayersdk.modulemap */,
+				2B422C942A36A8A3680972EC1AFECA4A /* JRCustomAliyunPlayersdk-dummy.m */,
+				9D1132412D1D6C58515EF3917D0C5563 /* JRCustomAliyunPlayersdk-Info.plist */,
+				BEFB9051EE6B659BBE668C40C16E9E4A /* JRCustomAliyunPlayersdk-prefix.pch */,
+				67D67218B5A91D49CF225CCCAA81E75C /* JRCustomAliyunPlayersdk-umbrella.h */,
+				C997D70CBAD64B0CE0444F2B146DB91A /* JRCustomAliyunPlayersdk.debug.xcconfig */,
+				D83BDC756BC4502C1645504F79706C46 /* JRCustomAliyunPlayersdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JRCustomAliyunPlayersdk";
+			sourceTree = "<group>";
+		};
+		45D1CFD3F979F334FEC99B146371AF55 /* JRCustomAliyunPlayersdk */ = {
+			isa = PBXGroup;
+			children = (
+				BAEECB0712737B46446E2F43B32B238E /* JRTestClass.h */,
+				1383540ABD4AF2F58D5D7EADFE9B501C /* JRTestClass.m */,
+				F573A98FE6CCAC8D415B4571D57EDAB9 /* Pod */,
+				4492A1DC0C049B0D854C01CA76DA080A /* Support Files */,
+			);
+			name = JRCustomAliyunPlayersdk;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -179,21 +197,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7058AC4F6EC49E33CAD22B33FF406073 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AE6CA70BDCAB42DC3FAE0F275312FD25 /* JRCustomAliyunPlayersdk.podspec */,
-				0081F393654AA47383FF27F5892B06DB /* LICENSE */,
-				ADC6767D53A0D9A669C791D2772B2F59 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				124D52DD5F35E11F978A449DAE508248 /* Development Pods */,
+				2CC04DF35E7AA86242AD0BC6D5100310 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6D2054DD541B8871001B3F973B31E1CB /* Products */,
 				3478887992A54F011648DCEB6B74FED3 /* Targets Support Files */,
@@ -208,32 +216,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E69781834E6AF8DF235E83FA05C43F75 /* Support Files */ = {
+		F573A98FE6CCAC8D415B4571D57EDAB9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D43EA54E2EF3174C94168B042AA740E1 /* JRCustomAliyunPlayersdk.modulemap */,
-				637786D8F1ADDF6C82920798A71C818E /* JRCustomAliyunPlayersdk-dummy.m */,
-				E1544A687E66EE08A614EEE48B6AEDF2 /* JRCustomAliyunPlayersdk-Info.plist */,
-				A7FEFE5664E1B385D856A51BA74EC298 /* JRCustomAliyunPlayersdk-prefix.pch */,
-				74171C74B9D3BD0B3DB2C6A8A5E15B59 /* JRCustomAliyunPlayersdk-umbrella.h */,
-				9BA60D9E135229AF5BFD9CC661564576 /* JRCustomAliyunPlayersdk.debug.xcconfig */,
-				8F8734C22E48DDCC74F62DA363BA0FCF /* JRCustomAliyunPlayersdk.release.xcconfig */,
+				850E662B3C6623FBF8DC4C15B8212FC6 /* JRCustomAliyunPlayersdk.podspec */,
+				D95AD00E9A13C53C24F8B207C70D927C /* LICENSE */,
+				FE43EC97B63B36946761D4A6393CA34A /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JRCustomAliyunPlayersdk";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2481762CF7B2B61C34FB235096B65315 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6CAF1BCDCF0C502EC86B17346FED4A2 /* JRCustomAliyunPlayersdk-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		27A04D30D2EAE96DEA1DA989BD0466D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +242,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0149FF7D3D6468AD9B4BB639B24C6C25 /* Pods-JRCustomAliyunPlayersdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F65E6C11135C2379BE94FE74F04BF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1426C596811CC5D00F5FAC3B41AFE16 /* JRCustomAliyunPlayersdk-umbrella.h in Headers */,
+				04F7D11152A1CB1717C639AA29CCE77C /* JRTestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6BDBA580540A5DAE73644EA17B6DE1D7 /* PBXTargetDependency */,
+				299E112C04E6812B1B59348E542DA866 /* PBXTargetDependency */,
 			);
 			name = "Pods-JRCustomAliyunPlayersdk_Example";
 			productName = Pods_JRCustomAliyunPlayersdk_Example;
@@ -284,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B6FC033014A8FD810F59966C77033D58 /* PBXTargetDependency */,
+				8321A95515F69CFA186247ABC80D8A8B /* PBXTargetDependency */,
 			);
 			name = "Pods-JRCustomAliyunPlayersdk_Tests";
 			productName = Pods_JRCustomAliyunPlayersdk_Tests;
@@ -293,12 +297,12 @@
 		};
 		C6C121CD4A29E91E9013E582FDE42EBA /* JRCustomAliyunPlayersdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51396748D7A3EB485F534745CCE8DFE9 /* Build configuration list for PBXNativeTarget "JRCustomAliyunPlayersdk" */;
+			buildConfigurationList = 8691DDEA1039C11ABBC9617EAA7FE05F /* Build configuration list for PBXNativeTarget "JRCustomAliyunPlayersdk" */;
 			buildPhases = (
-				2481762CF7B2B61C34FB235096B65315 /* Headers */,
-				F3ABF5F2F44DB34E9B8728F914722CCA /* Sources */,
-				0737E741C6444FF136F8B6AE3F8982CD /* Frameworks */,
-				A75A4EEE7E14C6FDB2B532CC89F3B5A1 /* Resources */,
+				B8F65E6C11135C2379BE94FE74F04BF6 /* Headers */,
+				783AD83A7B0B3C290E04D65E96F7443B /* Sources */,
+				EE3F2B4EA8A6DAD9C2B12334E64105E2 /* Frameworks */,
+				41493EB2C7C1524D53D6260FD998979D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A75A4EEE7E14C6FDB2B532CC89F3B5A1 /* Resources */ = {
+		41493EB2C7C1524D53D6260FD998979D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +367,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		783AD83A7B0B3C290E04D65E96F7443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A915A9183930281DDDA13E35CAC1CE46 /* JRCustomAliyunPlayersdk-dummy.m in Sources */,
+				742AD1DBA9330934081FFBAAC9813B5B /* JRTestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79E001D46225D3685691AF6136050B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +392,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3ABF5F2F44DB34E9B8728F914722CCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41D5BC0BD33D83DB1F2BD0391FB47006 /* JRCustomAliyunPlayersdk-dummy.m in Sources */,
-				4383A0A3CF069E0D49847A38C382516B /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6BDBA580540A5DAE73644EA17B6DE1D7 /* PBXTargetDependency */ = {
+		299E112C04E6812B1B59348E542DA866 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JRCustomAliyunPlayersdk;
 			target = C6C121CD4A29E91E9013E582FDE42EBA /* JRCustomAliyunPlayersdk */;
-			targetProxy = F55F5FCBFECC1F83DE67D4043FA5EBA5 /* PBXContainerItemProxy */;
+			targetProxy = 115D18CA0EC041397AE8FFF2106BD513 /* PBXContainerItemProxy */;
 		};
-		B6FC033014A8FD810F59966C77033D58 /* PBXTargetDependency */ = {
+		8321A95515F69CFA186247ABC80D8A8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JRCustomAliyunPlayersdk_Example";
 			target = 3119852301372635E07E09EDA6FECCDC /* Pods-JRCustomAliyunPlayersdk_Example */;
-			targetProxy = F80AEA5C66CB3A0837BC93D1F2B7EE2F /* PBXContainerItemProxy */;
+			targetProxy = 26FAD98347191B2F5ED27721BFED0D72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,9 +508,9 @@
 			};
 			name = Debug;
 		};
-		66DA6662F105DE850BB0206CCDA0FDF4 /* Release */ = {
+		3E480FE6C998B2FD3C5DBB47EB68F37C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8734C22E48DDCC74F62DA363BA0FCF /* JRCustomAliyunPlayersdk.release.xcconfig */;
+			baseConfigurationReference = C997D70CBAD64B0CE0444F2B146DB91A /* JRCustomAliyunPlayersdk.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -529,11 +533,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6A9A0203D9F8BD3E50C85D8B69080D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -567,36 +570,6 @@
 			};
 			name = Debug;
 		};
-		84593756C4D88C89113A259D19A494F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BA60D9E135229AF5BFD9CC661564576 /* JRCustomAliyunPlayersdk.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk.modulemap";
-				PRODUCT_MODULE_NAME = JRCustomAliyunPlayersdk;
-				PRODUCT_NAME = JRCustomAliyunPlayersdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9A5BD86781F9D2847136E2C375FBAB4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E1CE425B652AF6DAA3098845DDE1D7E /* Pods-JRCustomAliyunPlayersdk_Tests.release.xcconfig */;
@@ -623,6 +596,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57A96B7B332B7B54DC69B351B764C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83BDC756BC4502C1645504F79706C46 /* JRCustomAliyunPlayersdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRCustomAliyunPlayersdk/JRCustomAliyunPlayersdk.modulemap";
+				PRODUCT_MODULE_NAME = JRCustomAliyunPlayersdk;
+				PRODUCT_NAME = JRCustomAliyunPlayersdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -746,11 +750,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51396748D7A3EB485F534745CCE8DFE9 /* Build configuration list for PBXNativeTarget "JRCustomAliyunPlayersdk" */ = {
+		8691DDEA1039C11ABBC9617EAA7FE05F /* Build configuration list for PBXNativeTarget "JRCustomAliyunPlayersdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84593756C4D88C89113A259D19A494F7 /* Debug */,
-				66DA6662F105DE850BB0206CCDA0FDF4 /* Release */,
+				3E480FE6C998B2FD3C5DBB47EB68F37C /* Debug */,
+				B57A96B7B332B7B54DC69B351B764C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

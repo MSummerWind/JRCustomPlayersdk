@@ -1,7 +1,7 @@
 {
   "name": "JRCustomAliyunPlayersdk",
   "version": "0.1.0",
-  "summary": "A short description of JRCustomAliyunPlayersdk.",
+  "summary": "用来支持开发时，阿里云模拟器架构包sdk",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/miaopf123@163.com/JRCustomAliyunPlayersdk",
   "license": {
