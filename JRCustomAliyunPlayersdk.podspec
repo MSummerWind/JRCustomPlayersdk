@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JRCustomAliyunPlayersdk'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JRCustomAliyunPlayersdk.'
+  s.summary          = 'A short description of JRCustomAliyunPlayersdk. This framework is used for support i386 arc '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -1,0 +1,6 @@
+framework module Pods_JRCustomAliyunPlayersdk_Tests {
+  umbrella header "Pods-JRCustomAliyunPlayersdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

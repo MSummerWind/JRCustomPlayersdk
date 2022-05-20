@@ -1,0 +1,6 @@
+framework module JRCustomAliyunPlayersdk {
+  umbrella header "JRCustomAliyunPlayersdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
