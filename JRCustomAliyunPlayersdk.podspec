@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'miaopf123@163.com' => 'miaoxiangqian@jinred.com' }
-  s.source           = { :git => 'https://github.com/miaopf123@163.com/JRCustomAliyunPlayersdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'hhttps://github.com/MSummerWind/JRCustomPlayersdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
