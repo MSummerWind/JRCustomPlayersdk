@@ -1,0 +1,6 @@
+framework module Pods_JRCustomPlayerSdk_Tests {
+  umbrella header "Pods-JRCustomPlayerSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

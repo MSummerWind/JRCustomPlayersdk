@@ -1,0 +1,6 @@
+framework module JRCustomPlayerSdk {
+  umbrella header "JRCustomPlayerSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

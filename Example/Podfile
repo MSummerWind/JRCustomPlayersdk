@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JRCustomPlayerSdk_Example' do
+  pod 'JRCustomPlayerSdk', :path => '../'
+
+  target 'JRCustomPlayerSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

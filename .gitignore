@@ -1,3 +1,4 @@
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -21,6 +22,7 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+
 
 ## Obj-C/Swift specific
 *.hmap
@@ -66,3 +68,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
