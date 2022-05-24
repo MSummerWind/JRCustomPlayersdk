@@ -1,5 +1,5 @@
 PODS:
-  - JRCustomPlayerSdk (0.1.0)
+  - JRCustomPlayerSdk (0.3.0)
 
 DEPENDENCIES:
   - JRCustomPlayerSdk (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JRCustomPlayerSdk: 58b82cf7f7dccc22721ac6fdaaedc23e0f79bd19
+  JRCustomPlayerSdk: 5a1821871394afedb22496d86e6e339ddfaad17f
 
 PODFILE CHECKSUM: 016f6314d93275614b753043632026d733d01106
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

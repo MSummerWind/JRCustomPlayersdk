@@ -7,69 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002D707D387498A12153EC59A9E2D0D3 /* CicadaFrameInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CDAF6541A199FFFAA2FE9B384D9BBA /* CicadaFrameInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF4EA22BB8D0504D2733D7762C29AE9 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 9208325B3535DD4E92CC5900F9A59BA8 /* module.modulemap */; };
 		0F36F79ACF73F6168B14D27CCE7A8745 /* Pods-JRCustomPlayerSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F3D2F8EAFB0019DC2219086ED5E817 /* Pods-JRCustomPlayerSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16B8F15924791992A22DDEE0714BC4DE /* JRCustomPlayerSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B0A25C67315ED7C075E090B6348D /* JRCustomPlayerSdk-dummy.m */; };
 		1D7C52D2DF3FE79FE51BB284CD163AD3 /* Pods-JRCustomPlayerSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1E2A8CAE61D1D8614453A725F60D68 /* Pods-JRCustomPlayerSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45811EA1E57B07B784BC2A82141453B3 /* CicadaRenderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D614D791A7D5A304B7324871A43CE16 /* CicadaRenderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4794BBD85008373D26F44133669BF8B2 /* AliListPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DF109D53E9A2E3C46B0B87B2B0DE9A29 /* AliListPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB9160222FE2FE6F41BCDA61490849E /* Pods-JRCustomPlayerSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E46EB218BCB56225F0425F60E7A377 /* Pods-JRCustomPlayerSdk_Tests-dummy.m */; };
-		4AFCEC88CE1CBC4924D6215607A8273E /* JRCustomPlayerSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C04F691195A8BFEB8859BBF2EF8E24 /* JRCustomPlayerSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F47C08A1F5D3B6B7179625FC3AC04A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		605C629004B3601FE11945DA3D935351 /* AliPrivateService.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B6427837B37DD7D2FA67B90DC50809 /* AliPrivateService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625477AFA3DEB07D75523ED23DD92618 /* AVPLiveTimeShift.h in Headers */ = {isa = PBXBuildFile; fileRef = 7540AADEDD777658F0C0692AEAF0EC52 /* AVPLiveTimeShift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C2343B27F417D87F8071B814295A7D /* CicadaRenderingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD6DBE941AAA7382E57E79918D46AA1 /* CicadaRenderingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D30FC50E646D0A6072FE4A9FC7F334 /* AliyunMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 03017200D8B8D96D406E676CB77F8F3B /* AliyunMediaDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A86E90999B9780AC122411D6D777A8 /* AliVodMediaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5EF4D8B4EFEB82F31DE5188836D5AA /* AliVodMediaLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CA1B5AA5B63E2CD0AACEE27603135A /* VidPlayerConfigGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 758B9D1DDA1D04566215157B696E24A1 /* VidPlayerConfigGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7219BFAA5881A3168779FD738336E449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9B7650CD471F0231CA33D8DFABCFD967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A58FBFC6C5DD56697E982D336255B98D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B464D40CA7BC44E77EB4C924C1B5CE6 /* ReplaceMe.m */; };
+		79558B992163BAE132B1A6E97CA7487F /* AVPErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C530556B918F5F83BE50153F0E223D /* AVPErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ECF1400A1C5FA21D5D2DC136389F1D8 /* AVPLiveKeyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E80B0EB8D42D1E0618C8DBD5DC632CDB /* AVPLiveKeyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0AF1642221C4F0DC1E6F651634C5E9 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEA989E3AB780B6D9B37A6D308810 /* Info.plist */; };
+		96900BB21B353D0338449CC051BCC835 /* AVPMediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F29B87893FE1F7C96FBD54BD3435253 /* AVPMediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990150CDFD23ED01D4340E6D5DCD7C54 /* AVDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD25ED132F06FAB1754E3D2787E1C7F /* AVDConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99547E07D29220312D1DDFB1B04F7901 /* JRCustomPlayerSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA55755E9FFF9B2BEE5D2E98E35917 /* JRCustomPlayerSdk-dummy.m */; };
+		A0AB3DB5A4443E91531881A104AD1990 /* AVPDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 863E51135066CFBDD7CDD839DA512495 /* AVPDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F19090CA66482F9C9D5D3A75AC4036 /* AMDDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B8EC171306E7D88045785E3EF579F17C /* AMDDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E876B33CE1669D684B228CF7542869 /* AliyunPlayer in Sources */ = {isa = PBXBuildFile; fileRef = C73D2D039BA24E3F01FFEFCB16E63363 /* AliyunPlayer */; };
+		A45CF9A072147C4473776CD49CB52D69 /* AVPFilterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EF33F9BD564409469438421E5228252F /* AVPFilterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6715925FD88C747CB706F42A8C3AF91 /* AliyunPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8BCCAFD8D33488623F2AFED300F591 /* AliyunPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC33C142C76640B3C3E77C75409F4752 /* Pods-JRCustomPlayerSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F39A34294D113807E1075DFC33EBE77B /* Pods-JRCustomPlayerSdk_Example-dummy.m */; };
+		C5AE34CB46E0E6F6B5F3455CF881A96D /* AVPCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C529D6E97BDD35E43C2A17188B8C072A /* AVPCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C235888C07559472905FB7B83823E5 /* artcSource in Sources */ = {isa = PBXBuildFile; fileRef = F89BF4AB27B88AE4D9D94B31E7AF6936 /* artcSource */; };
+		CE327281C94509AF00F45240252D8231 /* CicadaAudioSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA96AAD53BFDE30693A99EFF181C237D /* CicadaAudioSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F4841B64124CAF9AEBAE044DF71A3C /* AliMediaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE4B674542A5D58334FA0A38BC30EFE /* AliMediaLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7121CB19F15265527D8C13751C3477B /* AliMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D02AAC1AA7BEC95E76E5692E6A92F2D /* AliMediaDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DCF8D0700650B1420C3F23BBF4F3FA /* AliPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD5F2ACDF44F9610DAEA68063520966 /* AliPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4401B3A0CE01554D620FAE9CF2F29AE /* AliPlayerGlobalSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = C249F9A384A9BA60031EA0215D4A1EFA /* AliPlayerGlobalSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E9EE750E982448E67F4F0DD1C31334 /* AVPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C66F05645F14AA762968D5F53AC1DFC3 /* AVPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BC87CC9FDC02CC01211AA44FF642C6 /* AliyunMediaDownloader in Sources */ = {isa = PBXBuildFile; fileRef = 1D6487845831420FDD538B3738ABC879 /* AliyunMediaDownloader */; };
+		ED4B9A30C8276CC38684C8304711EE69 /* JRCustomPlayerSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B721FFC9198EA9FF8BEE8FCB74B6E7E /* JRCustomPlayerSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F456D21B3D3C9B23F60BA59D954DDEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9BD001291EA9497E6B9ABD81001DF57 /* AVPSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FA09FD64D9D021A2637F879AF23464E9 /* AVPSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAACABF3FBA7A1E1569AFFC560A168AE /* alivcffmpeg in Sources */ = {isa = PBXBuildFile; fileRef = BA9A943C408872A0A0C6C43D1D5F77B0 /* alivcffmpeg */; };
+		FF0E1C02CDD0BC8D8C101E6B19EDEF6E /* AVPDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACC6013A6F29581ED63A5334F2E6B69 /* AVPDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C2A539A9583DF9CB544A023A0C4A222 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE88F0C38C71FC4D1EE60EF31266C1B3;
-			remoteInfo = "Pods-JRCustomPlayerSdk_Example";
-		};
-		8C2A3C17490C9ECEC8DF41AC8229F04C /* PBXContainerItemProxy */ = {
+		4B4B4534EB004C52EBDB1A987C5D485D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F45299BC70D8D8245C5850CD4BAF93DD;
 			remoteInfo = JRCustomPlayerSdk;
 		};
+		7017F9C7967DF51BA726A4D610930BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88F0C38C71FC4D1EE60EF31266C1B3;
+			remoteInfo = "Pods-JRCustomPlayerSdk_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		019DD00F88513056B8BD66DF35F86AB0 /* Pods-JRCustomPlayerSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomPlayerSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		01A4B0A25C67315ED7C075E090B6348D /* JRCustomPlayerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRCustomPlayerSdk-dummy.m"; sourceTree = "<group>"; };
-		076AA05578818D15B55E640CB692246E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03017200D8B8D96D406E676CB77F8F3B /* AliyunMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunMediaDownloader.h; sourceTree = "<group>"; };
 		10F3D2F8EAFB0019DC2219086ED5E817 /* Pods-JRCustomPlayerSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JRCustomPlayerSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		113E5D84D93FEE121AF224B416C1C9DC /* JRCustomPlayerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomPlayerSdk.debug.xcconfig; sourceTree = "<group>"; };
 		153F79CBFA1A1C914851980D95983E9C /* Pods-JRCustomPlayerSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRCustomPlayerSdk_Tests.modulemap"; sourceTree = "<group>"; };
 		1611CDBABD2C8525FEB528B9A4E93082 /* Pods-JRCustomPlayerSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JRCustomPlayerSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		190F4075E6D8F566EBA9D553032AF342 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		19CDAF6541A199FFFAA2FE9B384D9BBA /* CicadaFrameInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaFrameInfo.h; sourceTree = "<group>"; };
+		1D6487845831420FDD538B3738ABC879 /* AliyunMediaDownloader */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunMediaDownloader; sourceTree = "<group>"; };
 		2A4D05F67F7E1AB1ED6C93B2C0904AC1 /* Pods-JRCustomPlayerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomPlayerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2AEAFBED075009CBBAA93484A37DE200 /* Pods-JRCustomPlayerSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		35F7E3280FE13DA60CA84E8432E74DAD /* JRCustomPlayerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomPlayerSdk.release.xcconfig; sourceTree = "<group>"; };
-		3B464D40CA7BC44E77EB4C924C1B5CE6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JRCustomPlayerSdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3F29B87893FE1F7C96FBD54BD3435253 /* AVPMediaInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPMediaInfo.h; sourceTree = "<group>"; };
+		3FD5F2ACDF44F9610DAEA68063520966 /* AliPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliPlayer.h; sourceTree = "<group>"; };
 		47E46EB218BCB56225F0425F60E7A377 /* Pods-JRCustomPlayerSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRCustomPlayerSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CD25ED132F06FAB1754E3D2787E1C7F /* AVDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVDConfig.h; sourceTree = "<group>"; };
 		4E8B557ACCF7154749D0B0E99AEC969E /* Pods-JRCustomPlayerSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JRCustomPlayerSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53C04F691195A8BFEB8859BBF2EF8E24 /* JRCustomPlayerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomPlayerSdk-umbrella.h"; sourceTree = "<group>"; };
+		5A5EF4D8B4EFEB82F31DE5188836D5AA /* AliVodMediaLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliVodMediaLoader.h; sourceTree = "<group>"; };
+		5C8BCCAFD8D33488623F2AFED300F591 /* AliyunPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayer.h; sourceTree = "<group>"; };
 		5DE4B96636A89CF3E53636BF8230989C /* Pods-JRCustomPlayerSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JRCustomPlayerSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6608573E1F026AAB1648ED7B1DFD50AD /* Pods-JRCustomPlayerSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomPlayerSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6ACC6013A6F29581ED63A5334F2E6B69 /* AVPDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPDef.h; sourceTree = "<group>"; };
 		6B1E2A8CAE61D1D8614453A725F60D68 /* Pods-JRCustomPlayerSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JRCustomPlayerSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6B721FFC9198EA9FF8BEE8FCB74B6E7E /* JRCustomPlayerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomPlayerSdk-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7571B956568A371802B3D01CEC9B5B15 /* JRCustomPlayerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRCustomPlayerSdk.modulemap; sourceTree = "<group>"; };
-		7A0D356393B4D41F740DBDA8B14FABEC /* JRCustomPlayerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomPlayerSdk.debug.xcconfig; sourceTree = "<group>"; };
+		7540AADEDD777658F0C0692AEAF0EC52 /* AVPLiveTimeShift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPLiveTimeShift.h; sourceTree = "<group>"; };
+		758B9D1DDA1D04566215157B696E24A1 /* VidPlayerConfigGen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VidPlayerConfigGen.h; sourceTree = "<group>"; };
+		7D614D791A7D5A304B7324871A43CE16 /* CicadaRenderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaRenderDelegate.h; sourceTree = "<group>"; };
+		858FFDBA9B50FAB4C5B540D2074118D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		863E51135066CFBDD7CDD839DA512495 /* AVPDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPDelegate.h; sourceTree = "<group>"; };
+		8BD6DBE941AAA7382E57E79918D46AA1 /* CicadaRenderingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaRenderingDelegate.h; sourceTree = "<group>"; };
+		9208325B3535DD4E92CC5900F9A59BA8 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		9322AB82795AC36AED4F7AF922E359BC /* Pods-JRCustomPlayerSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomPlayerSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		989593300F5F750C446E5FD36E194760 /* JRCustomPlayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JRCustomPlayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A0A8F06F50D675F52D1A31CD116D8B0 /* Pods-JRCustomPlayerSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A5BEA989E3AB780B6D9B37A6D308810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF113E3EAFAFBDA30C1ED5533447FBD /* JRCustomPlayerSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRCustomPlayerSdk-Info.plist"; sourceTree = "<group>"; };
+		9D02AAC1AA7BEC95E76E5692E6A92F2D /* AliMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliMediaDownloader.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ECE5C0A68591ADF44AD66E805A0726D /* Pods-JRCustomPlayerSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRCustomPlayerSdk_Example.modulemap"; sourceTree = "<group>"; };
+		A3B6427837B37DD7D2FA67B90DC50809 /* AliPrivateService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliPrivateService.h; sourceTree = "<group>"; };
+		A52C59E9D70A54709B8877BF5C178D11 /* JRCustomPlayerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomPlayerSdk.release.xcconfig; sourceTree = "<group>"; };
 		A857E539ED8C408B28DBC5E05E7A20B6 /* JRCustomPlayerSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRCustomPlayerSdk; path = JRCustomPlayerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09BB5A09116A6F9FEF21D27817D8529 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B18041DA829FC0E9AEDF9BD658D57A79 /* JRCustomPlayerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomPlayerSdk-prefix.pch"; sourceTree = "<group>"; };
+		B838DDB488A48F1CC1A76E6A36133AFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EC171306E7D88045785E3EF579F17C /* AMDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMDDelegate.h; sourceTree = "<group>"; };
+		BA9A943C408872A0A0C6C43D1D5F77B0 /* alivcffmpeg */ = {isa = PBXFileReference; includeInIndex = 1; path = alivcffmpeg; sourceTree = "<group>"; };
 		C1FF696FBB34D4EA834B9E1392F84CA6 /* Pods-JRCustomPlayerSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		C249F9A384A9BA60031EA0215D4A1EFA /* AliPlayerGlobalSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliPlayerGlobalSettings.h; sourceTree = "<group>"; };
+		C529D6E97BDD35E43C2A17188B8C072A /* AVPCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPCacheConfig.h; sourceTree = "<group>"; };
+		C5614FBCAD151BF987800CE80C8F54DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66F05645F14AA762968D5F53AC1DFC3 /* AVPConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPConfig.h; sourceTree = "<group>"; };
 		C6DB6154A45E2547ABF71401515E55A4 /* Pods-JRCustomPlayerSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomPlayerSdk_Example"; path = Pods_JRCustomPlayerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A698D26F0F1EC4A9831D14A3B954B5 /* JRCustomPlayerSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRCustomPlayerSdk-Info.plist"; sourceTree = "<group>"; };
+		C73D2D039BA24E3F01FFEFCB16E63363 /* AliyunPlayer */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunPlayer; sourceTree = "<group>"; };
+		C9FF727912EC0DA367C3529D532A68F2 /* JRCustomPlayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JRCustomPlayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2DA55755E9FFF9B2BEE5D2E98E35917 /* JRCustomPlayerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRCustomPlayerSdk-dummy.m"; sourceTree = "<group>"; };
 		DA1AC28DF2A926C96FFAFCEB9E6BD6C3 /* Pods-JRCustomPlayerSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomPlayerSdk_Tests"; path = Pods_JRCustomPlayerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF9632F14F095675DBD6CCCDFBC1E051 /* JRCustomPlayerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomPlayerSdk-prefix.pch"; sourceTree = "<group>"; };
-		EE141010725DB7894285F20603024E35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA96AAD53BFDE30693A99EFF181C237D /* CicadaAudioSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaAudioSessionDelegate.h; sourceTree = "<group>"; };
+		DF109D53E9A2E3C46B0B87B2B0DE9A29 /* AliListPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliListPlayer.h; sourceTree = "<group>"; };
+		E5C530556B918F5F83BE50153F0E223D /* AVPErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPErrorCode.h; sourceTree = "<group>"; };
+		E80B0EB8D42D1E0618C8DBD5DC632CDB /* AVPLiveKeyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPLiveKeyGenerator.h; sourceTree = "<group>"; };
+		EF33F9BD564409469438421E5228252F /* AVPFilterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPFilterConfig.h; sourceTree = "<group>"; };
+		EFE4B674542A5D58334FA0A38BC30EFE /* AliMediaLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliMediaLoader.h; sourceTree = "<group>"; };
 		F39A34294D113807E1075DFC33EBE77B /* Pods-JRCustomPlayerSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRCustomPlayerSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		F68F0D1DECD9D023D455569062A33A5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F755E19BC02EF155411BF215F40118FA /* Pods-JRCustomPlayerSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F89BF4AB27B88AE4D9D94B31E7AF6936 /* artcSource */ = {isa = PBXFileReference; includeInIndex = 1; path = artcSource; sourceTree = "<group>"; };
+		FA09FD64D9D021A2637F879AF23464E9 /* AVPSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPSource.h; sourceTree = "<group>"; };
+		FC91C754EB52C89C5C03B35CBA70C4A9 /* JRCustomPlayerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRCustomPlayerSdk.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +147,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		836B24C4E6202B24FBA415E3E43680C5 /* Frameworks */ = {
+		30EF7F36E8F2F3060741E5407D03FC5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7650CD471F0231CA33D8DFABCFD967 /* Foundation.framework in Frameworks */,
+				5F47C08A1F5D3B6B7179625FC3AC04A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,23 +166,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29336216DE108DC8005D017C7A6666AA /* Development Pods */ = {
+		177504B02F0AF065008D667297E8F264 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3BB6C213B5F67E1830D6C0D91DC55735 /* JRCustomPlayerSdk */,
+				9208325B3535DD4E92CC5900F9A59BA8 /* module.modulemap */,
 			);
-			name = "Development Pods";
+			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		3BB6C213B5F67E1830D6C0D91DC55735 /* JRCustomPlayerSdk */ = {
+		3148786DFEC0D275B78D109B89221BE0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3B464D40CA7BC44E77EB4C924C1B5CE6 /* ReplaceMe.m */,
-				9A746BFFDF73B81B27121F923E2450E0 /* Pod */,
-				6A213147DA50788BC11336A5F59F60B9 /* Support Files */,
+				C9FF727912EC0DA367C3529D532A68F2 /* JRCustomPlayerSdk.podspec */,
+				B09BB5A09116A6F9FEF21D27817D8529 /* LICENSE */,
+				858FFDBA9B50FAB4C5B540D2074118D2 /* README.md */,
 			);
-			name = JRCustomPlayerSdk;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4393CB5B7E0D9CCA273BA454C0E81376 /* Pods-JRCustomPlayerSdk_Example */ = {
@@ -136,6 +202,18 @@
 			path = "Target Support Files/Pods-JRCustomPlayerSdk_Example";
 			sourceTree = "<group>";
 		};
+		471BAEF03EBDC9EBD8A256C077945505 /* AliyunMediaDownloader.framework */ = {
+			isa = PBXGroup;
+			children = (
+				1D6487845831420FDD538B3738ABC879 /* AliyunMediaDownloader */,
+				F68F0D1DECD9D023D455569062A33A5C /* Info.plist */,
+				4C7A4FB75BDA0A332F22894C918E15FC /* Headers */,
+				BF8A17EA02BBA2FD6B6F5D2DF03556D7 /* Modules */,
+			);
+			name = AliyunMediaDownloader.framework;
+			path = JRCustomPlayerSdk/Classes/AliyunMediaDownloader.framework;
+			sourceTree = "<group>";
+		};
 		48E3FA60AE57FFA0B813D3EE1EDED069 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +221,17 @@
 				C4E184A878151CE16D346863571F781D /* Pods-JRCustomPlayerSdk_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C7A4FB75BDA0A332F22894C918E15FC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9D02AAC1AA7BEC95E76E5692E6A92F2D /* AliMediaDownloader.h */,
+				03017200D8B8D96D406E676CB77F8F3B /* AliyunMediaDownloader.h */,
+				4CD25ED132F06FAB1754E3D2787E1C7F /* AVDConfig.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -153,19 +242,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6A213147DA50788BC11336A5F59F60B9 /* Support Files */ = {
+		646732352721A5848EB3B92C2C4E678C /* JRCustomPlayerSdk */ = {
 			isa = PBXGroup;
 			children = (
-				7571B956568A371802B3D01CEC9B5B15 /* JRCustomPlayerSdk.modulemap */,
-				01A4B0A25C67315ED7C075E090B6348D /* JRCustomPlayerSdk-dummy.m */,
-				C9A698D26F0F1EC4A9831D14A3B954B5 /* JRCustomPlayerSdk-Info.plist */,
-				DF9632F14F095675DBD6CCCDFBC1E051 /* JRCustomPlayerSdk-prefix.pch */,
-				53C04F691195A8BFEB8859BBF2EF8E24 /* JRCustomPlayerSdk-umbrella.h */,
-				7A0D356393B4D41F740DBDA8B14FABEC /* JRCustomPlayerSdk.debug.xcconfig */,
-				35F7E3280FE13DA60CA84E8432E74DAD /* JRCustomPlayerSdk.release.xcconfig */,
+				D630AD49E633A9DD8B2B0B954E4D38B0 /* alivcffmpeg.framework */,
+				471BAEF03EBDC9EBD8A256C077945505 /* AliyunMediaDownloader.framework */,
+				CCF08F538723CB7CCC9D3F6D58A5C5C0 /* AliyunPlayer.framework */,
+				E1707ECBCC011C7643E59B5962B31729 /* artcSource.framework */,
+				3148786DFEC0D275B78D109B89221BE0 /* Pod */,
+				83C0FA098DE966EFE5CF0CFFAA7AC8A3 /* Support Files */,
+			);
+			name = JRCustomPlayerSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		83C0FA098DE966EFE5CF0CFFAA7AC8A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC91C754EB52C89C5C03B35CBA70C4A9 /* JRCustomPlayerSdk.modulemap */,
+				D2DA55755E9FFF9B2BEE5D2E98E35917 /* JRCustomPlayerSdk-dummy.m */,
+				9BF113E3EAFAFBDA30C1ED5533447FBD /* JRCustomPlayerSdk-Info.plist */,
+				B18041DA829FC0E9AEDF9BD658D57A79 /* JRCustomPlayerSdk-prefix.pch */,
+				6B721FFC9198EA9FF8BEE8FCB74B6E7E /* JRCustomPlayerSdk-umbrella.h */,
+				113E5D84D93FEE121AF224B416C1C9DC /* JRCustomPlayerSdk.debug.xcconfig */,
+				A52C59E9D70A54709B8877BF5C178D11 /* JRCustomPlayerSdk.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JRCustomPlayerSdk";
+			sourceTree = "<group>";
+		};
+		9484AA41207C8B1FAC38A0B4B0112C60 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				646732352721A5848EB3B92C2C4E678C /* JRCustomPlayerSdk */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		99E782A2A9AB33CFC8B1D73C1F790929 /* Products */ = {
@@ -178,14 +289,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A746BFFDF73B81B27121F923E2450E0 /* Pod */ = {
+		BF8A17EA02BBA2FD6B6F5D2DF03556D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				989593300F5F750C446E5FD36E194760 /* JRCustomPlayerSdk.podspec */,
-				EE141010725DB7894285F20603024E35 /* LICENSE */,
-				076AA05578818D15B55E640CB692246E /* README.md */,
+				190F4075E6D8F566EBA9D553032AF342 /* module.modulemap */,
 			);
-			name = Pod;
+			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		C4E184A878151CE16D346863571F781D /* Pods-JRCustomPlayerSdk_Tests */ = {
@@ -204,11 +314,23 @@
 			path = "Target Support Files/Pods-JRCustomPlayerSdk_Tests";
 			sourceTree = "<group>";
 		};
+		CCF08F538723CB7CCC9D3F6D58A5C5C0 /* AliyunPlayer.framework */ = {
+			isa = PBXGroup;
+			children = (
+				C73D2D039BA24E3F01FFEFCB16E63363 /* AliyunPlayer */,
+				B838DDB488A48F1CC1A76E6A36133AFC /* Info.plist */,
+				DB75FDE49646C0C909B476AC11BCAA65 /* Headers */,
+				177504B02F0AF065008D667297E8F264 /* Modules */,
+			);
+			name = AliyunPlayer.framework;
+			path = JRCustomPlayerSdk/Classes/AliyunPlayer.framework;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				29336216DE108DC8005D017C7A6666AA /* Development Pods */,
+				9484AA41207C8B1FAC38A0B4B0112C60 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				99E782A2A9AB33CFC8B1D73C1F790929 /* Products */,
 				48E3FA60AE57FFA0B813D3EE1EDED069 /* Targets Support Files */,
@@ -223,14 +345,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D630AD49E633A9DD8B2B0B954E4D38B0 /* alivcffmpeg.framework */ = {
+			isa = PBXGroup;
+			children = (
+				BA9A943C408872A0A0C6C43D1D5F77B0 /* alivcffmpeg */,
+				C5614FBCAD151BF987800CE80C8F54DE /* Info.plist */,
+			);
+			name = alivcffmpeg.framework;
+			path = JRCustomPlayerSdk/Classes/alivcffmpeg.framework;
+			sourceTree = "<group>";
+		};
+		DB75FDE49646C0C909B476AC11BCAA65 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DF109D53E9A2E3C46B0B87B2B0DE9A29 /* AliListPlayer.h */,
+				EFE4B674542A5D58334FA0A38BC30EFE /* AliMediaLoader.h */,
+				3FD5F2ACDF44F9610DAEA68063520966 /* AliPlayer.h */,
+				C249F9A384A9BA60031EA0215D4A1EFA /* AliPlayerGlobalSettings.h */,
+				A3B6427837B37DD7D2FA67B90DC50809 /* AliPrivateService.h */,
+				5A5EF4D8B4EFEB82F31DE5188836D5AA /* AliVodMediaLoader.h */,
+				5C8BCCAFD8D33488623F2AFED300F591 /* AliyunPlayer.h */,
+				B8EC171306E7D88045785E3EF579F17C /* AMDDelegate.h */,
+				C529D6E97BDD35E43C2A17188B8C072A /* AVPCacheConfig.h */,
+				C66F05645F14AA762968D5F53AC1DFC3 /* AVPConfig.h */,
+				6ACC6013A6F29581ED63A5334F2E6B69 /* AVPDef.h */,
+				863E51135066CFBDD7CDD839DA512495 /* AVPDelegate.h */,
+				E5C530556B918F5F83BE50153F0E223D /* AVPErrorCode.h */,
+				EF33F9BD564409469438421E5228252F /* AVPFilterConfig.h */,
+				E80B0EB8D42D1E0618C8DBD5DC632CDB /* AVPLiveKeyGenerator.h */,
+				7540AADEDD777658F0C0692AEAF0EC52 /* AVPLiveTimeShift.h */,
+				3F29B87893FE1F7C96FBD54BD3435253 /* AVPMediaInfo.h */,
+				FA09FD64D9D021A2637F879AF23464E9 /* AVPSource.h */,
+				DA96AAD53BFDE30693A99EFF181C237D /* CicadaAudioSessionDelegate.h */,
+				19CDAF6541A199FFFAA2FE9B384D9BBA /* CicadaFrameInfo.h */,
+				7D614D791A7D5A304B7324871A43CE16 /* CicadaRenderDelegate.h */,
+				8BD6DBE941AAA7382E57E79918D46AA1 /* CicadaRenderingDelegate.h */,
+				758B9D1DDA1D04566215157B696E24A1 /* VidPlayerConfigGen.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		E1707ECBCC011C7643E59B5962B31729 /* artcSource.framework */ = {
+			isa = PBXGroup;
+			children = (
+				F89BF4AB27B88AE4D9D94B31E7AF6936 /* artcSource */,
+				9A5BEA989E3AB780B6D9B37A6D308810 /* Info.plist */,
+			);
+			name = artcSource.framework;
+			path = JRCustomPlayerSdk/Classes/artcSource.framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		63F214852501DB0FA2BFF49A38A857AF /* Headers */ = {
+		590E12917AF24D16961464EAEC248D48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AFCEC88CE1CBC4924D6215607A8273E /* JRCustomPlayerSdk-umbrella.h in Headers */,
+				4794BBD85008373D26F44133669BF8B2 /* AliListPlayer.h in Headers */,
+				D7121CB19F15265527D8C13751C3477B /* AliMediaDownloader.h in Headers */,
+				D4F4841B64124CAF9AEBAE044DF71A3C /* AliMediaLoader.h in Headers */,
+				D8DCF8D0700650B1420C3F23BBF4F3FA /* AliPlayer.h in Headers */,
+				E4401B3A0CE01554D620FAE9CF2F29AE /* AliPlayerGlobalSettings.h in Headers */,
+				605C629004B3601FE11945DA3D935351 /* AliPrivateService.h in Headers */,
+				71A86E90999B9780AC122411D6D777A8 /* AliVodMediaLoader.h in Headers */,
+				64D30FC50E646D0A6072FE4A9FC7F334 /* AliyunMediaDownloader.h in Headers */,
+				B6715925FD88C747CB706F42A8C3AF91 /* AliyunPlayer.h in Headers */,
+				A0F19090CA66482F9C9D5D3A75AC4036 /* AMDDelegate.h in Headers */,
+				990150CDFD23ED01D4340E6D5DCD7C54 /* AVDConfig.h in Headers */,
+				C5AE34CB46E0E6F6B5F3455CF881A96D /* AVPCacheConfig.h in Headers */,
+				E7E9EE750E982448E67F4F0DD1C31334 /* AVPConfig.h in Headers */,
+				FF0E1C02CDD0BC8D8C101E6B19EDEF6E /* AVPDef.h in Headers */,
+				A0AB3DB5A4443E91531881A104AD1990 /* AVPDelegate.h in Headers */,
+				79558B992163BAE132B1A6E97CA7487F /* AVPErrorCode.h in Headers */,
+				A45CF9A072147C4473776CD49CB52D69 /* AVPFilterConfig.h in Headers */,
+				7ECF1400A1C5FA21D5D2DC136389F1D8 /* AVPLiveKeyGenerator.h in Headers */,
+				625477AFA3DEB07D75523ED23DD92618 /* AVPLiveTimeShift.h in Headers */,
+				96900BB21B353D0338449CC051BCC835 /* AVPMediaInfo.h in Headers */,
+				F9BD001291EA9497E6B9ABD81001DF57 /* AVPSource.h in Headers */,
+				CE327281C94509AF00F45240252D8231 /* CicadaAudioSessionDelegate.h in Headers */,
+				002D707D387498A12153EC59A9E2D0D3 /* CicadaFrameInfo.h in Headers */,
+				45811EA1E57B07B784BC2A82141453B3 /* CicadaRenderDelegate.h in Headers */,
+				63C2343B27F417D87F8071B814295A7D /* CicadaRenderingDelegate.h in Headers */,
+				ED4B9A30C8276CC38684C8304711EE69 /* JRCustomPlayerSdk-umbrella.h in Headers */,
+				71CA1B5AA5B63E2CD0AACEE27603135A /* VidPlayerConfigGen.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +464,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8392A8DDDD24CA21D6F1C983D92D89C3 /* PBXTargetDependency */,
+				0D9DBAD42F88C61222BE5CCACBD0C3F4 /* PBXTargetDependency */,
 			);
 			name = "Pods-JRCustomPlayerSdk_Tests";
 			productName = Pods_JRCustomPlayerSdk_Tests;
@@ -284,7 +483,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0491EA31BEBB2B2CDE727765516C70FA /* PBXTargetDependency */,
+				B107C25DB15716F7FC889B5A178B574E /* PBXTargetDependency */,
 			);
 			name = "Pods-JRCustomPlayerSdk_Example";
 			productName = Pods_JRCustomPlayerSdk_Example;
@@ -293,12 +492,12 @@
 		};
 		F45299BC70D8D8245C5850CD4BAF93DD /* JRCustomPlayerSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 072513C3F49E36CE28849E7FEBD71432 /* Build configuration list for PBXNativeTarget "JRCustomPlayerSdk" */;
+			buildConfigurationList = 1FE8A98B6F697D5CBA3E317BF437E5B8 /* Build configuration list for PBXNativeTarget "JRCustomPlayerSdk" */;
 			buildPhases = (
-				63F214852501DB0FA2BFF49A38A857AF /* Headers */,
-				F5355477540DEC7EC15DDC4B8F156033 /* Sources */,
-				836B24C4E6202B24FBA415E3E43680C5 /* Frameworks */,
-				113896BF1B10F0EA336B9C60CA28EBB4 /* Resources */,
+				590E12917AF24D16961464EAEC248D48 /* Headers */,
+				50DC355BED88FD6889C19330D641B7C2 /* Sources */,
+				30EF7F36E8F2F3060741E5407D03FC5D /* Frameworks */,
+				DF0B42ED2B92E8CC74205BAC205454B7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +538,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		113896BF1B10F0EA336B9C60CA28EBB4 /* Resources */ = {
+		30E12388B63733DFA45EF8CBD5BD6F38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30E12388B63733DFA45EF8CBD5BD6F38 /* Resources */ = {
+		DF0B42ED2B92E8CC74205BAC205454B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +570,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50DC355BED88FD6889C19330D641B7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACABF3FBA7A1E1569AFFC560A168AE /* alivcffmpeg in Sources */,
+				E8BC87CC9FDC02CC01211AA44FF642C6 /* AliyunMediaDownloader in Sources */,
+				A3E876B33CE1669D684B228CF7542869 /* AliyunPlayer in Sources */,
+				C6C235888C07559472905FB7B83823E5 /* artcSource in Sources */,
+				8F0AF1642221C4F0DC1E6F651634C5E9 /* Info.plist in Sources */,
+				8F0AF1642221C4F0DC1E6F651634C5E9 /* Info.plist in Sources */,
+				8F0AF1642221C4F0DC1E6F651634C5E9 /* Info.plist in Sources */,
+				8F0AF1642221C4F0DC1E6F651634C5E9 /* Info.plist in Sources */,
+				99547E07D29220312D1DDFB1B04F7901 /* JRCustomPlayerSdk-dummy.m in Sources */,
+				0EF4EA22BB8D0504D2733D7762C29AE9 /* module.modulemap in Sources */,
+				0EF4EA22BB8D0504D2733D7762C29AE9 /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F54C609E7FBAFCBEDE523280B4EE43A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,33 +596,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5355477540DEC7EC15DDC4B8F156033 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16B8F15924791992A22DDEE0714BC4DE /* JRCustomPlayerSdk-dummy.m in Sources */,
-				A58FBFC6C5DD56697E982D336255B98D /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0491EA31BEBB2B2CDE727765516C70FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JRCustomPlayerSdk;
-			target = F45299BC70D8D8245C5850CD4BAF93DD /* JRCustomPlayerSdk */;
-			targetProxy = 8C2A3C17490C9ECEC8DF41AC8229F04C /* PBXContainerItemProxy */;
-		};
-		8392A8DDDD24CA21D6F1C983D92D89C3 /* PBXTargetDependency */ = {
+		0D9DBAD42F88C61222BE5CCACBD0C3F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JRCustomPlayerSdk_Example";
 			target = DE88F0C38C71FC4D1EE60EF31266C1B3 /* Pods-JRCustomPlayerSdk_Example */;
-			targetProxy = 0C2A539A9583DF9CB544A023A0C4A222 /* PBXContainerItemProxy */;
+			targetProxy = 7017F9C7967DF51BA726A4D610930BE8 /* PBXContainerItemProxy */;
+		};
+		B107C25DB15716F7FC889B5A178B574E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRCustomPlayerSdk;
+			target = F45299BC70D8D8245C5850CD4BAF93DD /* JRCustomPlayerSdk */;
+			targetProxy = 4B4B4534EB004C52EBDB1A987C5D485D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		147C2BCAF3BE55BF39F75003E8C7D1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113E5D84D93FEE121AF224B416C1C9DC /* JRCustomPlayerSdk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk.modulemap";
+				PRODUCT_MODULE_NAME = JRCustomPlayerSdk;
+				PRODUCT_NAME = JRCustomPlayerSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F75EB573A8C3E3EF141E5651C6D9CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52C59E9D70A54709B8877BF5C178D11 /* JRCustomPlayerSdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk.modulemap";
+				PRODUCT_MODULE_NAME = JRCustomPlayerSdk;
+				PRODUCT_NAME = JRCustomPlayerSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -471,37 +740,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		31D21C95AEDCDE9005CB9C89FA73B049 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35F7E3280FE13DA60CA84E8432E74DAD /* JRCustomPlayerSdk.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk.modulemap";
-				PRODUCT_MODULE_NAME = JRCustomPlayerSdk;
-				PRODUCT_NAME = JRCustomPlayerSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		39BD0FFE6918802E6F82C07BFB7D8AAE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -633,36 +871,6 @@
 			};
 			name = Debug;
 		};
-		B7980B2B730181F796B7138AFC3FDDE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A0D356393B4D41F740DBDA8B14FABEC /* JRCustomPlayerSdk.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRCustomPlayerSdk/JRCustomPlayerSdk.modulemap";
-				PRODUCT_MODULE_NAME = JRCustomPlayerSdk;
-				PRODUCT_NAME = JRCustomPlayerSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -728,11 +936,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		072513C3F49E36CE28849E7FEBD71432 /* Build configuration list for PBXNativeTarget "JRCustomPlayerSdk" */ = {
+		1FE8A98B6F697D5CBA3E317BF437E5B8 /* Build configuration list for PBXNativeTarget "JRCustomPlayerSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7980B2B730181F796B7138AFC3FDDE6 /* Debug */,
-				31D21C95AEDCDE9005CB9C89FA73B049 /* Release */,
+				147C2BCAF3BE55BF39F75003E8C7D1B4 /* Debug */,
+				1F75EB573A8C3E3EF141E5651C6D9CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
