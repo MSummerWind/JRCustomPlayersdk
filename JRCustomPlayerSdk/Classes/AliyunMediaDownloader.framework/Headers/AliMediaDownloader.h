@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AliyunPlayer/AliyunPlayer.h>
+#import <AliyunPlayer.h>
 #import "AVDConfig.h"
 
 @class AVPVidStsSource;
