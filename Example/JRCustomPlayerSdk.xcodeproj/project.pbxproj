@@ -247,7 +247,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "苗向前";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7388T928NE;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 9XW84FH25H;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -432,6 +436,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
@@ -494,7 +499,7 @@
 			baseConfigurationReference = 6D887735001C906675F562E6 /* Pods-JRCustomPlayerSdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7388T928NE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JRCustomPlayerSdk/JRCustomPlayerSdk-Prefix.pch";
 				INFOPLIST_FILE = "JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
@@ -511,7 +516,7 @@
 			baseConfigurationReference = C3EA3F69AA6CC73333599F64 /* Pods-JRCustomPlayerSdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7388T928NE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JRCustomPlayerSdk/JRCustomPlayerSdk-Prefix.pch";
 				INFOPLIST_FILE = "JRCustomPlayerSdk/JRCustomPlayerSdk-Info.plist";
@@ -528,6 +533,7 @@
 			baseConfigurationReference = 6038D30759557CC64D32417F /* Pods-JRCustomPlayerSdk_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XW84FH25H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -553,6 +559,7 @@
 			baseConfigurationReference = E9190AA2C2F6A3B8B25A6C7B /* Pods-JRCustomPlayerSdk_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XW84FH25H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
