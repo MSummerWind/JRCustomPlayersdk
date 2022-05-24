@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JRCustomPlayerSdk/Classes/**/*'
+  #s.source_files = 'JRCustomPlayerSdk/Classes/**/*'
   
   s.subspec 'AliPlayerSDK' do |playerSDK|
     playerSDK.vendored_frameworks = 'AliyunPlayer.framework','alivcffmpeg.framework','AliyunMediaDownloader.framework'
