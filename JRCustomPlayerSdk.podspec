@@ -29,7 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'i386 x86_64 armv7 arm64' }
+  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'i386 x86_64 armv7 arm64' }
+  
+  s.pod_target_xcconfig = {
+            'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
   #s.source_files = 'JRCustomPlayerSdk/Classes/**/*'
   
   s.subspec 'AliPlayerSDK' do |playerSDK|
