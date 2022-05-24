@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JRCustomPlayerSdk/Classes/**/*'
   
+  s.subspec 'AliPlayerSDK' do |playerSDK|
+    playerSDK.vendored_frameworks = 'AliyunPlayer.framework','alivcffmpeg.framework','AliyunMediaDownloader.framework'
+    playerSDK.frameworks = 'MediaPlayer','CoreGraphics','QuartzCore','CoreVideo','OpenGLES','AVFoundation','CoreMedia','VideoToolbox','AudioToolbox'
+  end
+  
   # s.resource_bundles = {
   #   'JRCustomPlayerSdk' => ['JRCustomPlayerSdk/Assets/*.png']
   # }
