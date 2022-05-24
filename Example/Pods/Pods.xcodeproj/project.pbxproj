@@ -76,7 +76,7 @@
 		1611CDBABD2C8525FEB528B9A4E93082 /* Pods-JRCustomPlayerSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JRCustomPlayerSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		190F4075E6D8F566EBA9D553032AF342 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		19CDAF6541A199FFFAA2FE9B384D9BBA /* CicadaFrameInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaFrameInfo.h; sourceTree = "<group>"; };
-		1D6487845831420FDD538B3738ABC879 /* AliyunMediaDownloader */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunMediaDownloader; sourceTree = "<group>"; };
+		1D6487845831420FDD538B3738ABC879 /* AliyunMediaDownloader */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = AliyunMediaDownloader; sourceTree = "<group>"; };
 		2A4D05F67F7E1AB1ED6C93B2C0904AC1 /* Pods-JRCustomPlayerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRCustomPlayerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2AEAFBED075009CBBAA93484A37DE200 /* Pods-JRCustomPlayerSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		3F29B87893FE1F7C96FBD54BD3435253 /* AVPMediaInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPMediaInfo.h; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		7540AADEDD777658F0C0692AEAF0EC52 /* AVPLiveTimeShift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPLiveTimeShift.h; sourceTree = "<group>"; };
 		758B9D1DDA1D04566215157B696E24A1 /* VidPlayerConfigGen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VidPlayerConfigGen.h; sourceTree = "<group>"; };
 		7D614D791A7D5A304B7324871A43CE16 /* CicadaRenderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaRenderDelegate.h; sourceTree = "<group>"; };
-		858FFDBA9B50FAB4C5B540D2074118D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		858FFDBA9B50FAB4C5B540D2074118D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		863E51135066CFBDD7CDD839DA512495 /* AVPDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPDelegate.h; sourceTree = "<group>"; };
 		8BD6DBE941AAA7382E57E79918D46AA1 /* CicadaRenderingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaRenderingDelegate.h; sourceTree = "<group>"; };
 		9208325B3535DD4E92CC5900F9A59BA8 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
@@ -104,24 +104,24 @@
 		9A5BEA989E3AB780B6D9B37A6D308810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF113E3EAFAFBDA30C1ED5533447FBD /* JRCustomPlayerSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRCustomPlayerSdk-Info.plist"; sourceTree = "<group>"; };
 		9D02AAC1AA7BEC95E76E5692E6A92F2D /* AliMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliMediaDownloader.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ECE5C0A68591ADF44AD66E805A0726D /* Pods-JRCustomPlayerSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRCustomPlayerSdk_Example.modulemap"; sourceTree = "<group>"; };
 		A3B6427837B37DD7D2FA67B90DC50809 /* AliPrivateService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliPrivateService.h; sourceTree = "<group>"; };
 		A52C59E9D70A54709B8877BF5C178D11 /* JRCustomPlayerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRCustomPlayerSdk.release.xcconfig; sourceTree = "<group>"; };
 		A857E539ED8C408B28DBC5E05E7A20B6 /* JRCustomPlayerSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRCustomPlayerSdk; path = JRCustomPlayerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B09BB5A09116A6F9FEF21D27817D8529 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B09BB5A09116A6F9FEF21D27817D8529 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B18041DA829FC0E9AEDF9BD658D57A79 /* JRCustomPlayerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRCustomPlayerSdk-prefix.pch"; sourceTree = "<group>"; };
 		B838DDB488A48F1CC1A76E6A36133AFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EC171306E7D88045785E3EF579F17C /* AMDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMDDelegate.h; sourceTree = "<group>"; };
-		BA9A943C408872A0A0C6C43D1D5F77B0 /* alivcffmpeg */ = {isa = PBXFileReference; includeInIndex = 1; path = alivcffmpeg; sourceTree = "<group>"; };
+		BA9A943C408872A0A0C6C43D1D5F77B0 /* alivcffmpeg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = alivcffmpeg; sourceTree = "<group>"; };
 		C1FF696FBB34D4EA834B9E1392F84CA6 /* Pods-JRCustomPlayerSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Example-Info.plist"; sourceTree = "<group>"; };
 		C249F9A384A9BA60031EA0215D4A1EFA /* AliPlayerGlobalSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliPlayerGlobalSettings.h; sourceTree = "<group>"; };
 		C529D6E97BDD35E43C2A17188B8C072A /* AVPCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPCacheConfig.h; sourceTree = "<group>"; };
 		C5614FBCAD151BF987800CE80C8F54DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C66F05645F14AA762968D5F53AC1DFC3 /* AVPConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPConfig.h; sourceTree = "<group>"; };
 		C6DB6154A45E2547ABF71401515E55A4 /* Pods-JRCustomPlayerSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomPlayerSdk_Example"; path = Pods_JRCustomPlayerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C73D2D039BA24E3F01FFEFCB16E63363 /* AliyunPlayer */ = {isa = PBXFileReference; includeInIndex = 1; path = AliyunPlayer; sourceTree = "<group>"; };
-		C9FF727912EC0DA367C3529D532A68F2 /* JRCustomPlayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JRCustomPlayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C73D2D039BA24E3F01FFEFCB16E63363 /* AliyunPlayer */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = AliyunPlayer; sourceTree = "<group>"; };
+		C9FF727912EC0DA367C3529D532A68F2 /* JRCustomPlayerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JRCustomPlayerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D2DA55755E9FFF9B2BEE5D2E98E35917 /* JRCustomPlayerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRCustomPlayerSdk-dummy.m"; sourceTree = "<group>"; };
 		DA1AC28DF2A926C96FFAFCEB9E6BD6C3 /* Pods-JRCustomPlayerSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JRCustomPlayerSdk_Tests"; path = Pods_JRCustomPlayerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA96AAD53BFDE30693A99EFF181C237D /* CicadaAudioSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CicadaAudioSessionDelegate.h; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		F39A34294D113807E1075DFC33EBE77B /* Pods-JRCustomPlayerSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRCustomPlayerSdk_Example-dummy.m"; sourceTree = "<group>"; };
 		F68F0D1DECD9D023D455569062A33A5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F755E19BC02EF155411BF215F40118FA /* Pods-JRCustomPlayerSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRCustomPlayerSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F89BF4AB27B88AE4D9D94B31E7AF6936 /* artcSource */ = {isa = PBXFileReference; includeInIndex = 1; path = artcSource; sourceTree = "<group>"; };
+		F89BF4AB27B88AE4D9D94B31E7AF6936 /* artcSource */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = artcSource; sourceTree = "<group>"; };
 		FA09FD64D9D021A2637F879AF23464E9 /* AVPSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPSource.h; sourceTree = "<group>"; };
 		FC91C754EB52C89C5C03B35CBA70C4A9 /* JRCustomPlayerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRCustomPlayerSdk.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,7 +171,6 @@
 			children = (
 				9208325B3535DD4E92CC5900F9A59BA8 /* module.modulemap */,
 			);
-			name = Modules;
 			path = Modules;
 			sourceTree = "<group>";
 		};
@@ -230,7 +229,6 @@
 				03017200D8B8D96D406E676CB77F8F3B /* AliyunMediaDownloader.h */,
 				4CD25ED132F06FAB1754E3D2787E1C7F /* AVDConfig.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -294,7 +292,6 @@
 			children = (
 				190F4075E6D8F566EBA9D553032AF342 /* module.modulemap */,
 			);
-			name = Modules;
 			path = Modules;
 			sourceTree = "<group>";
 		};
@@ -382,7 +379,6 @@
 				8BD6DBE941AAA7382E57E79918D46AA1 /* CicadaRenderingDelegate.h */,
 				758B9D1DDA1D04566215157B696E24A1 /* VidPlayerConfigGen.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -926,8 +922,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
